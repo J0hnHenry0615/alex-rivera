@@ -1,0 +1,18 @@
+{
+	"name": "rivera/alex-rivera-site",
+	"description": "Block theme for Dr Alex Rivera's one-page site.",
+	"type": "project",
+	"license": "GPL-2.0-or-later",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.1"
+	},
+	"scripts": {
+		"lint": "phpcs",
+		"format": "phpcbf"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
